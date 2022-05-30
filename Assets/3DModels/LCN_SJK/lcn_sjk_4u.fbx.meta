@@ -1,0 +1,1003 @@
+fileFormatVersion: 2
+guid: 51fab5752e50cc94ab883f09538b4808
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -1498010087492872569
+    second: LCN_IDLE
+  - first:
+      74: -5053651106059829801
+    second: LCN_GMK
+  - first:
+      74: -2583867097944968900
+    second: LCN_DMG
+  - first:
+      74: -6211011134956458801
+    second: LCN_RDY
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BASE7C_BODYMAT
+    second: {fileID: 2100000, guid: 9351523ea6b87a449941ef83412ffa12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BASE7C_EYE
+    second: {fileID: 2100000, guid: 5c55b7b277423f549b7cc21a36908cac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BASE7C_HEADMAT
+    second: {fileID: 2100000, guid: 727a043b2636ea44cb71717140af803f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_PLY_ACCMAT
+    second: {fileID: 2100000, guid: 71d2ad0484a77f04fa1d5ef50bf1ae9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CH_PLY_CLTHMAT
+    second: {fileID: 2100000, guid: 861d418da136bcf4b85afed3d40b2550, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: LCN_IDLE
+      takeName: CINEMA_4D_Main
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: LCN_GMK
+      takeName: CINEMA_4D_Main
+      internalID: 0
+      firstFrame: 111
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: LCN_DMG
+      takeName: CINEMA_4D_Main
+      internalID: 0
+      firstFrame: 151
+      lastFrame: 167
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: Play
+        data: Damaged
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: LCN_RDY
+      takeName: CINEMA_4D_Main
+      internalID: 0
+      firstFrame: 169
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: CH_PLY_CNTR
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LHIPS
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RHIPS
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LKNEE
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RKNEE
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LFOOT
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RFOOT
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_UPPERBODY
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_SPINE1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_NECK
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_HEAD
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LCLAV
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RCRAV
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LSHOULDER
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RSHOURDER
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LELBOW
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RERBOW
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LWRIST
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RWRIST
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LTOE
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RTOE
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LTI
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LTM
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LTX
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LPI
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LPM
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LPX
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LMI
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LMM
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LMX
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LNI
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LNM
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LNX
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LKI
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LKM
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_LKX
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RTI
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RTM
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RTX
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RPI
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RPM
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RPX
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RMI
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RMM
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RMX
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RNI
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RNM
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RNX
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RKI
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RKM
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PRY_RKX
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CH_PLY_SPINE2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: lcn_sjk_4u(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BASE7C_BODY
+      parentName: lcn_sjk_4u(Clone)
+      position: {x: -0.000000002980232, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_PLY_WPN
+      parentName: lcn_sjk_4u(Clone)
+      position: {x: -0.6059864, y: 0.47156227, z: -0.00992009}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_PLY_OUTFIT_CORE
+      parentName: lcn_sjk_4u(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_PLY_ROOT
+      parentName: lcn_sjk_4u(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: CH_PLY_CNTR
+      parentName: CH_PLY_ROOT
+      position: {x: -0.34351546, y: 7.6898535e-17, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: CH_PLY_LHIPS
+      parentName: CH_PLY_CNTR
+      position: {x: 0.040592797, y: -0.06388659, z: -0.013656579}
+      rotation: {x: -0.011706084, y: 0.9867914, z: 0.001916565, w: 0.16156182}
+      scale: {x: 1, y: 1.0000002, z: 1.0000005}
+    - name: CH_PLY_LKNEE
+      parentName: CH_PLY_LHIPS
+      position: {x: -0.13836946, y: 0.00038808372, z: 0.017233351}
+      rotation: {x: -0.0042264755, y: 0.35628015, z: 0.011083418, w: 0.93430394}
+      scale: {x: 0.99999994, y: 1.0000006, z: 1.0000014}
+    - name: CH_PLY_LFOOT
+      parentName: CH_PLY_LKNEE
+      position: {x: -0.16048406, y: -4.262316e-16, z: -0.019160923}
+      rotation: {x: 0.00000004004686, y: -0.8303017, z: 0.000000019324938, w: 0.5573142}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000002}
+    - name: CH_PLY_LTOE
+      parentName: CH_PLY_LFOOT
+      position: {x: -0.04732509, y: -9.75715e-17, z: 3.5068345e-17}
+      rotation: {x: -0.7071068, y: -0.7071068, z: 0.000000027127594, w: 0}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.9999997}
+    - name: CH_PLY_UPPERBODY
+      parentName: CH_PLY_CNTR
+      position: {x: -0.052489143, y: 1.5988804e-17, z: -0.0049165925}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: CH_PLY_SPINE1
+      parentName: CH_PLY_UPPERBODY
+      position: {x: -0.05789597, y: 9.8978315e-18, z: 0}
+      rotation: {x: -0, y: -0.030474652, z: -0, w: 0.99953556}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: CH_PLY_SPINE2
+      parentName: CH_PLY_SPINE1
+      position: {x: -0.06815496, y: 9.13646e-18, z: 0}
+      rotation: {x: -0.000000001932792, y: 0.03349096, z: -0.000000059573406, w: 0.999439}
+      scale: {x: 1.0000006, y: 1.0000004, z: 0.9999999}
+    - name: CH_PLY_LCLAV
+      parentName: CH_PLY_SPINE2
+      position: {x: -0.037958812, y: -0.060333807, z: -0.015397623}
+      rotation: {x: 0.011958175, y: 0.01990587, z: 0.8529556, w: 0.52146685}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: CH_PLY_LSHOULDER
+      parentName: CH_PLY_LCLAV
+      position: {x: -0.05558317, y: 0.008841001, z: 0}
+      rotation: {x: 0.0055015106, y: -0.014374509, z: -0.20684625, w: 0.97825235}
+      scale: {x: 1, y: 1.0000005, z: 1}
+    - name: CH_PLY_LELBOW
+      parentName: CH_PLY_LSHOULDER
+      position: {x: -0.085104406, y: 1.7985613e-16, z: 0}
+      rotation: {x: 0.00946903, y: -0.0014958475, z: -0.05584892, w: 0.9983933}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1}
+    - name: CH_PLY_LWRIST
+      parentName: CH_PLY_LELBOW
+      position: {x: -0.09138976, y: -1.4224732e-18, z: 0.0049179387}
+      rotation: {x: -0.0000000037252894, y: -0.000000018626448, z: -0.34042528, w: 0.94027156}
+      scale: {x: 0.9999998, y: 1.0000002, z: 0.99999994}
+    - name: CH_PLY_LPI
+      parentName: CH_PLY_LWRIST
+      position: {x: -0.04590532, y: -0.03098553, z: 0.027093412}
+      rotation: {x: -0.029627256, y: -0.01527725, z: 0.33422986, w: 0.941902}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: CH_PLY_LPM
+      parentName: CH_PLY_LPI
+      position: {x: -0.025320498, y: -5.648259e-17, z: 1.3877788e-17}
+      rotation: {x: -0.0000000018626443, y: 0.00000009220089, z: 0.036258724, w: 0.99934244}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: CH_PLY_LPX
+      parentName: CH_PLY_LPM
+      position: {x: -0.01926814, y: 5.224987e-17, z: 5.551115e-19}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1}
+    - name: CH_PLY_LMI
+      parentName: CH_PLY_LWRIST
+      position: {x: -0.049056027, y: -0.03098553, z: 0.0050826073}
+      rotation: {x: 0.00028574228, y: 0.023127679, z: 0.33576435, w: 0.9416621}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.99999994}
+    - name: CH_PLY_LMM
+      parentName: CH_PLY_LMI
+      position: {x: -0.025320498, y: -5.648259e-17, z: 1.3877788e-17}
+      rotation: {x: 0.000000016036202, y: 0.00000028684718, z: 0.03626033, w: 0.9993424}
+      scale: {x: 1, y: 1.0000002, z: 0.9999999}
+    - name: CH_PLY_LMX
+      parentName: CH_PLY_LMM
+      position: {x: -0.01926814, y: 5.224987e-17, z: 5.551115e-19}
+      rotation: {x: 4.440891e-16, y: -0, z: -6.938891e-17, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 0.99999994}
+    - name: CH_PLY_LNI
+      parentName: CH_PLY_LWRIST
+      position: {x: -0.048664827, y: -0.03098553, z: -0.012690191}
+      rotation: {x: -0.090173975, y: -0.048916698, z: 0.33215874, w: 0.9376281}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1.0000001}
+    - name: CH_PLY_LNM
+      parentName: CH_PLY_LNI
+      position: {x: -0.025320498, y: -5.648259e-17, z: 1.3877788e-17}
+      rotation: {x: 0.000000022351735, y: 0.000000067055204, z: 0.036257107, w: 0.9993425}
+      scale: {x: 1, y: 1.0000002, z: 0.9999997}
+    - name: CH_PLY_LNX
+      parentName: CH_PLY_LNM
+      position: {x: -0.01926814, y: 5.224987e-17, z: 5.551115e-19}
+      rotation: {x: -0, y: -0, z: 4.4408895e-16, w: 1}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1}
+    - name: CH_PLY_LKI
+      parentName: CH_PLY_LWRIST
+      position: {x: -0.033833757, y: -0.03098553, z: -0.02728302}
+      rotation: {x: -0.25735188, y: -0.106887095, z: 0.3147602, w: 0.907343}
+      scale: {x: 1, y: 0.9999998, z: 1.0000005}
+    - name: CH_PLY_LKM
+      parentName: CH_PLY_LKI
+      position: {x: -0.025320498, y: -5.648259e-17, z: 1.3877788e-17}
+      rotation: {x: -0.000000029802308, y: 0.0000010356302, z: 0.03625497, w: 0.9993426}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+    - name: CH_PLY_LKX
+      parentName: CH_PLY_LKM
+      position: {x: -0.01926814, y: 5.224987e-17, z: 5.551115e-19}
+      rotation: {x: -0, y: -0, z: 6.661338e-15, w: 1}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000001}
+    - name: CH_PLY_LTI
+      parentName: CH_PLY_LWRIST
+      position: {x: -0.00844385, y: -0.025954101, z: 0.035571717}
+      rotation: {x: 0.6367876, y: 0.44135663, z: -0.123839945, w: 0.61997545}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000012}
+    - name: CH_PLY_LTM
+      parentName: CH_PLY_LTI
+      position: {x: -0.025320498, y: -5.648259e-17, z: 1.3877788e-17}
+      rotation: {x: -0.00000032782546, y: -0.0000021457668, z: 0.036254756, w: 0.99934256}
+      scale: {x: 0.99999946, y: 1.0000006, z: 0.9999998}
+    - name: CH_PLY_LTX
+      parentName: CH_PLY_LTM
+      position: {x: -0.01926814, y: 5.224987e-17, z: 5.551115e-19}
+      rotation: {x: -0, y: -0, z: 8.881783e-16, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: CH_PLY_PSX_CAPE
+      parentName: CH_PLY_SPINE2
+      position: {x: -0.026380805, y: -2.7371285e-16, z: -0.058883738}
+      rotation: {x: 0.68114024, y: 0.68114036, z: -0.189863, w: -0.18986297}
+      scale: {x: 1.0000002, y: 1.0000014, z: 1.0000012}
+    - name: CH_PLY_PSX_CAPE1
+      parentName: CH_PLY_PSX_CAPE
+      position: {x: -3.1554436e-32, y: 0.07817483, z: -0.014648907}
+      rotation: {x: -0.14121614, y: 0.000000014901159, z: 0.000000029802319, w: 0.9899788}
+      scale: {x: 1, y: 0.99999875, z: 1.0000005}
+    - name: CH_PLY_PSX_CAPE2
+      parentName: CH_PLY_PSX_CAPE1
+      position: {x: -0, y: 0.17295393, z: -0.021852428}
+      rotation: {x: -0.11158197, y: -0.000000028156304, z: -0.00000003561191, w: 0.9937553}
+      scale: {x: 1, y: 1.0000006, z: 1.0000015}
+    - name: CH_PLY_PSX_CAPE3
+      parentName: CH_PLY_PSX_CAPE2
+      position: {x: 1.2621774e-31, y: 0.13845252, z: 0.009655323}
+      rotation: {x: -0, y: -1.7763564e-15, z: -4.440891e-16, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: CH_PLY_NECK
+      parentName: CH_PLY_SPINE2
+      position: {x: -0.053007387, y: 9.39025e-18, z: 0}
+      rotation: {x: 0.0000000013659237, y: 0.0000000018626451, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1.0000005, y: 1.0000002, z: 0.99999994}
+    - name: CH_PLY_HEAD
+      parentName: CH_PLY_NECK
+      position: {x: -0, y: 0.037966847, z: 0.012858916}
+      rotation: {x: -0, y: -0, z: -2.5442312e-18, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: HETOBJ
+      parentName: CH_PLY_HEAD
+      position: {x: 6.335369e-18, y: -0.612839, z: -0.0006402292}
+      rotation: {x: -0.0030178495, y: 0, z: -0, w: 0.99999547}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BASE7C_HEAD
+      parentName: HETOBJ
+      position: {x: 0.00000008909492, y: 0.65197426, z: -0.0061409464}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_PLY_HAIR
+      parentName: HETOBJ
+      position: {x: -0, y: 0.7953027, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_PLY_OUTFIT_HAT
+      parentName: HETOBJ
+      position: {x: -0, y: 0.77489024, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_PRY_RCRAV
+      parentName: CH_PLY_SPINE2
+      position: {x: -0.03795879, y: 0.0603338, z: -0.015397626}
+      rotation: {x: 0.8529554, y: 0.5214671, z: -0.011958269, w: -0.019905625}
+      scale: {x: 1.0000004, y: 1.0000011, z: 1.0000011}
+    - name: CH_PRY_RSHOURDER
+      parentName: CH_PRY_RCRAV
+      position: {x: 0.055582713, y: -0.008840873, z: -0.000000059159138}
+      rotation: {x: 0.005501485, y: -0.014374214, z: -0.20684786, w: 0.9782521}
+      scale: {x: 0.99999994, y: 1.0000008, z: 1.0000006}
+    - name: CH_PRY_RERBOW
+      parentName: CH_PRY_RSHOURDER
+      position: {x: 0.08510499, y: 0.0000002674814, z: -0.0000000057252163}
+      rotation: {x: 0.009469132, y: -0.0014964804, z: -0.05584564, w: 0.9983934}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000008}
+    - name: CH_PRY_RWRIST
+      parentName: CH_PRY_RERBOW
+      position: {x: 0.09138936, y: -0.00000027142775, z: -0.0049179066}
+      rotation: {x: 0.0000000037252899, y: 0.00000001117587, z: -0.34042534, w: 0.9402716}
+      scale: {x: 0.9999996, y: 1.0000011, z: 1.0000007}
+    - name: CH_PRY_RPI
+      parentName: CH_PRY_RWRIST
+      position: {x: 0.045905802, y: 0.030985288, z: -0.027093394}
+      rotation: {x: -0.02962725, y: -0.01527726, z: 0.33422986, w: 0.941902}
+      scale: {x: 1.0000011, y: 0.9999996, z: 1.000001}
+    - name: CH_PRY_RPM
+      parentName: CH_PRY_RPI
+      position: {x: 0.025320506, y: -0.000000024739165, z: -0.0000000031517953}
+      rotation: {x: -0.00000013783564, y: -0.000000980682, z: 0.036251526, w: 0.9993427}
+      scale: {x: 0.99999994, y: 1.0000007, z: 1.0000007}
+    - name: CH_PRY_RPX
+      parentName: CH_PRY_RPM
+      position: {x: 0.019267876, y: 0.00000017891705, z: -0.0000000469839}
+      rotation: {x: -0, y: -0, z: 1.3877778e-17, w: 1}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000005}
+    - name: CH_PRY_RMI
+      parentName: CH_PRY_RWRIST
+      position: {x: 0.049056, y: 0.030985242, z: -0.005082651}
+      rotation: {x: 0.00028574502, y: 0.023127666, z: 0.33576432, w: 0.9416621}
+      scale: {x: 1.0000012, y: 1.0000002, z: 1.0000013}
+    - name: CH_PRY_RMM
+      parentName: CH_PRY_RMI
+      position: {x: 0.025320526, y: -0.00000015342748, z: 0.000000009881353}
+      rotation: {x: 0.00000008405181, y: 0.0000006891783, z: 0.036255084, w: 0.99934256}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000004}
+    - name: CH_PRY_RMX
+      parentName: CH_PRY_RMM
+      position: {x: 0.019268407, y: -0.000000008426892, z: 0.00000003268988}
+      rotation: {x: -3.552712e-15, y: -0, z: 0.000000014901154, w: 1}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000006}
+    - name: CH_PRY_RNI
+      parentName: CH_PRY_RWRIST
+      position: {x: 0.04866508, y: 0.030985417, z: 0.012690183}
+      rotation: {x: -0.09017397, y: -0.04891671, z: 0.3321589, w: 0.93762803}
+      scale: {x: 1.000001, y: 0.9999997, z: 1.0000008}
+    - name: CH_PRY_RNM
+      parentName: CH_PRY_RNI
+      position: {x: 0.02532072, y: -0.00000012970173, z: -0.0000000037717127}
+      rotation: {x: -0.00000011920923, y: -0.0000010952348, z: 0.03625408, w: 0.9993427}
+      scale: {x: 0.9999998, y: 1.0000005, z: 1.0000004}
+    - name: CH_PRY_RNX
+      parentName: CH_PRY_RNM
+      position: {x: 0.019267892, y: 0.00000010474434, z: -0.000000046806093}
+      rotation: {x: -0, y: -0, z: 0.000000014901156, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000006}
+    - name: CH_PRY_RKI
+      parentName: CH_PRY_RWRIST
+      position: {x: 0.0338338, y: 0.030986091, z: 0.027282987}
+      rotation: {x: -0.25734776, y: -0.10689804, z: 0.31476876, w: 0.9073399}
+      scale: {x: 1.0000008, y: 0.99999994, z: 1.0000007}
+    - name: CH_PRY_RKM
+      parentName: CH_PRY_RKI
+      position: {x: 0.025320472, y: -0.000001078692, z: -0.00000062925267}
+      rotation: {x: -0.0000005215404, y: 0.000015154474, z: 0.03622209, w: 0.99934375}
+      scale: {x: 1, y: 1.0000008, z: 1.0000007}
+    - name: CH_PRY_RKX
+      parentName: CH_PRY_RKM
+      position: {x: 0.01926853, y: 0.00000030957122, z: 0.000000212187}
+      rotation: {x: -0, y: 3.5527128e-15, z: 3.885779e-15, w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000007}
+    - name: CH_PRY_RTI
+      parentName: CH_PRY_RWRIST
+      position: {x: 0.0084439935, y: 0.02595435, z: -0.03557174}
+      rotation: {x: -0.6367897, y: -0.44136497, z: 0.12383807, w: -0.61996776}
+      scale: {x: 1.000001, y: 0.99999994, z: 0.9999992}
+    - name: CH_PRY_RTM
+      parentName: CH_PRY_RTI
+      position: {x: 0.025320038, y: 0.00000023364173, z: 0.00000051209895}
+      rotation: {x: 0.00000083446463, y: -0.000009745355, z: 0.036260407, w: 0.9993424}
+      scale: {x: 1.0000001, y: 0.9999996, z: 1.0000002}
+    - name: CH_PRY_RTX
+      parentName: CH_PRY_RTM
+      position: {x: 0.019268954, y: 0.000000031497308, z: -0.000000015280682}
+      rotation: {x: -0, y: 7.1054257e-15, z: -8.881782e-15, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: CH_PRY_RHIPS
+      parentName: CH_PLY_CNTR
+      position: {x: 0.040592484, y: 0.0638866, z: -0.013656599}
+      rotation: {x: -0.001916565, y: -0.16156179, z: -0.011706024, w: 0.9867914}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: CH_PRY_RKNEE
+      parentName: CH_PRY_RHIPS
+      position: {x: 0.13836944, y: -0.00038810092, z: -0.017233353}
+      rotation: {x: -0.0042264196, y: 0.35628015, z: 0.011083351, w: 0.93430394}
+      scale: {x: 0.9999997, y: 1.0000004, z: 1.0000005}
+    - name: CH_PRY_RFOOT
+      parentName: CH_PRY_RKNEE
+      position: {x: 0.16048428, y: -0.00000003569137, z: 0.019161096}
+      rotation: {x: 0.00000003748573, y: -0.8303017, z: 0.00000005727633, w: 0.5573142}
+      scale: {x: 1.0000004, y: 1.0000001, z: 0.9999996}
+    - name: CH_PRY_RTOE
+      parentName: CH_PRY_RFOOT
+      position: {x: 0.047325037, y: 0.000000048922995, z: -0.000000019172159}
+      rotation: {x: 0.7071068, y: 0.7071068, z: -0.000000048400018, w: 0.000000029802319}
+      scale: {x: 0.99999994, y: 1.0000004, z: 0.99999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

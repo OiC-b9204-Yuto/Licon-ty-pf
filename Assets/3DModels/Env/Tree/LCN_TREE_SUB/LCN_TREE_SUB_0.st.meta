@@ -1,0 +1,46 @@
+fileFormatVersion: 2
+guid: 5a9a0a7c61c84ed45a5d78be68070b52
+SpeedTreeImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BroadleafBark_LOD0
+    second: {fileID: 2100000, guid: 641df0ed68bd5fe45b1bf150249eca22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cap_01_LOD0
+    second: {fileID: 2100000, guid: 1070f2231bc1fdc4f90d8e43386ef24e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LCN_TREE_SUB_0_LOD0
+    second: {fileID: 2100000, guid: efa8c920cb31d174ab1ebfa6e2549d95, type: 2}
+  serializedVersion: 6
+  mainColor: {r: 1, g: 1, b: 1, a: 1}
+  hueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+  alphaTestRef: 0.33
+  bestWindQuality: 4
+  hasBillboard: 0
+  lODSettings:
+  - height: 0.14567271
+    castShadows: 1
+    receiveShadows: 1
+    useLightProbes: 1
+    reflectionProbeUsage: 1
+    enableBump: 0
+    enableHue: 0
+    enableSubsurface: 0
+    windQuality: 4
+  enableSmoothLODTransition: 1
+  animateCrossFading: 1
+  billboardTransitionCrossFadeWidth: 0.25
+  fadeOutWidth: 0.25
+  scaleFactor: 0.1
+  materialVersion: 3
+  materialLocation: 1
+  fileIDType: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
